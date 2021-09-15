@@ -1,4 +1,4 @@
 <div style="text-align: center">
   <h1>Welcome to {{title}}</h1>
 </div>
-<app-user [name]="'Andrei'"></app-user>
+<app-user [name]="rootName" (nameChanged)="onNameChanged($event)"></app-user>
