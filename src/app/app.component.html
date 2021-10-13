@@ -2,3 +2,6 @@
   <h1>Welcome to {{title}}</h1>
 </div>
 <app-user [name]="rootName" (nameChanged)="onNameChanged($event)"></app-user>
+
+<h2>Assignment 2</h2>
+<app-cart [items]="rootItems" (buttonClickEvent)="onButtonClick($event)"></app-cart>
