@@ -1,5 +1,4 @@
-import { EventEmitter } from '@angular/core';
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { EventEmitter, Component, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-cart',

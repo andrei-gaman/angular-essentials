@@ -1,2 +1,10 @@
 <button (click)="onClick()">Add Item</button>
 <input type="text" [(ngModel)]="item">
+
+<hr>
+
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of items">
+    {{item}}
+  </li>
+</ul>
