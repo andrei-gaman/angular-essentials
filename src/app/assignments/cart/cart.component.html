@@ -1,5 +1,6 @@
-<button (click)="onClick()">Add Item</button>
 <input type="text" [(ngModel)]="item">
+<button (click)="onClick()" class="btn" [ngClass]="{'btn-primary': item !== '', 'btn-default': item === ''}">Add
+  Item</button>
 
 <hr>
 
